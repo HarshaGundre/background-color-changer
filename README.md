@@ -10,7 +10,7 @@
             padding: 50px;
             transition: background-color 0.5s ease;
         }
-        img {
+        button {
             cursor: pointer;
             width: 200px;
         }
@@ -18,7 +18,7 @@
 </head>
 <body>
 
-    <img src="https://via.placeholder.com/200" alt="Click Me!" onclick="changeBackground()">
+    <button alt="Click Me!" onclick="changeBackground()">click me</button>
 
     <script>
         function changeBackground() {
